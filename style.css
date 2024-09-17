@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: kodchasan;
+}
+
+.logo {
+  width: 15vh;
+  height: 5vw;
+  margin-left: 1%;
+  margin-right: 3%;
+}
+
+nav {
+  font-size: 21px;
+  letter-spacing: 2px;
+  justify-content: space-between;
+  width: 40vw;
+  display: inline;
+  margin: 2.7%;
+  margin-left: 3%;
+}
+
+.anuncio {
+  margin-bottom: 2%;
+  margin-left: 6%;
+}
+
+.top {
+  margin-top: 1%;
+  width: 100%;
+}
+
+.mb {
+  font-size: 15px;
+  letter-spacing: 2px;
+  width: 40vw;
+  display: inline;
+  margin-left: 2%;
+}
+
+section {
+  width: 80%;
+  display: flex;
+  padding: 1%;
+}
+
+h2 {
+  margin-left: 50%;
+  margin-top: 1%;
+}
+
+p {
+  margin-left: 8%;
+  margin-inline-end: 1%;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1240px) {
+  .top {
+    display: none;
+  }
+  .anuncio {
+    margin-left: 6%;
+    height: 70vw;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    width: 55vh;
+  }
+  section {
+    display: block;
+  }
+}
+@media screen and (max-width: 440px) {
+  .logo {
+    margin-left: 35%;
+    height: 8vw;
+    width: 20vh;
+  }
+  .tit {
+    display: none;
+  }
+  div {
+    display: block;
+    display: inline-block;
+    padding: 4%;
+  }
+}/*# sourceMappingURL=style.css.map */
